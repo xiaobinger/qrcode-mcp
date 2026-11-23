@@ -1,7 +1,7 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/registry/2025-09-29/server-json.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.xiaobinger/qrcode-mcp",
-  "description": "Local MCP server that decodes and repairs damaged QR codes, generates QR codes, safely routes QR URLs and runs pluggable OCR (Windows OCR / RapidOCR / Tesseract).",
+  "description": "Decode, repair and generate QR codes; safely route QR URLs and run pluggable OCR.",
   "status": "active",
   "version": "0.1.0",
   "repository": {

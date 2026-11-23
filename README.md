@@ -1,3 +1,7 @@
+<!--
+mcp-name: io.github.xiaobinger/qrcode-mcp
+-->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
@@ -47,8 +51,8 @@
 </p>
 
 > [!NOTE]
-> Run it from source (`pip install -e .`) or, once available on PyPI,
-> `pip install qrcode-mcp` / `uvx qrcode-mcp`. Either way the client setup is
+> Run it from source (`pip install -e .`) or from the published package
+> (`pip install qrcode-mcp` / `uvx qrcode-mcp`). Either way the client setup is
 > the same — see [Usage in MCP clients](#usage-in-mcp-clients).
 
 ---
@@ -107,7 +111,7 @@ pip install -e '.[full]'      # optional: OpenCV, ZBar, all OCR backends
 qrmcp --version
 ```
 
-**From the package** (once `qrcode-mcp` is installed from PyPI):
+**From the published PyPI package**:
 
 ```bash
 pip install qrcode-mcp                 # or: pip install 'qrcode-mcp[full]'
