@@ -3,7 +3,7 @@
   "name": "io.github.xiaobinger/qrcode-mcp",
   "description": "Decode, repair and generate QR codes; safely route QR URLs and run pluggable OCR.",
   "status": "active",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "url": "https://github.com/xiaobinger/qrcode-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
     {
       "registryType": "pypi",
       "identifier": "qrcode-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": { "type": "stdio" },
       "runtimeHint": "python -m qrmcp --transport stdio",
       "environmentVariables": [

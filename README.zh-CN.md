@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img alt="version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-4F46E5?style=flat-square">
+  <img alt="version 0.1.1" src="https://img.shields.io/badge/version-0.1.1-4F46E5?style=flat-square">
   <img alt="Python 3.10-3.13" src="https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="MIT" src="https://img.shields.io/badge/license-MIT-0F766E?style=flat-square&logo=opensourceinitiative&logoColor=white">
   <img alt="MCP 2025-06-18" src="https://img.shields.io/badge/MCP-2025--06--18-6D28D9?style=flat-square">
