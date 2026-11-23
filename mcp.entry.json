@@ -1,0 +1,9 @@
+{
+  "qrcode_mcp": {
+    "command": "python",
+    "args": ["-m", "qrmcp", "--transport", "stdio"],
+    "env": {
+      "PYTHONIOENCODING": "utf-8"
+    }
+  }
+}

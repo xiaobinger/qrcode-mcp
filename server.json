@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/registry/2025-09-29/server-json.schema.json",
+  "name": "io.github.xiaobinger/qrcode-mcp",
+  "description": "Local MCP server that decodes and repairs damaged QR codes, generates QR codes, safely routes QR URLs and runs pluggable OCR (Windows OCR / RapidOCR / Tesseract).",
+  "status": "active",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/xiaobinger/qrcode-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "qrcode-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "runtimeHint": "python -m qrmcp --transport stdio",
+      "environmentVariables": [
+        {
+          "name": "QRMCP_OUTPUT_DIR",
+          "description": "Directory where generated images are written. Defaults to ./out",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        },
+        {
+          "name": "QRMCP_URL_ALLOWLIST",
+          "description": "Comma-separated allowed hostnames for qr_open. Wildcards such as *.example.com are supported. Empty means all public hosts are allowed with explicit confirmation.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        },
+        {
+          "name": "QRMCP_HTTP_TOKEN",
+          "description": "Optional bearer token required by the HTTP and SSE transports.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "QRMCP_ALLOW_REMOTE",
+          "description": "Set to 1 to allow fetching images from http(s) URLs. Disabled by default to prevent SSRF.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

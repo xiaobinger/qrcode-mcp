@@ -1,0 +1,76 @@
+# ---------------------------------------------------------------------------
+# qrcode-mcp
+# Only source, docs, assets and CI config belong in the published repository.
+# tests/selftest.py and tests/ci_smoke.py are the project's OWN test suites and
+# are intentionally tracked: .github/workflows/ci.yml and the README badges
+# depend on them. Everything excluded below is a generated / local artefact.
+# ---------------------------------------------------------------------------
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+*.tar.gz
+
+# Local runtime output (generated QR images, repaired PNGs, logs)
+out/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & local config
+.env
+.env.*
+.pypirc
+*.pem
+*.key
+
+# One-off QR research / diagnostic artefacts (never part of the package)
+# These were produced while reverse-engineering the glare-damaged sample.
+qr_M.npy
+qr_recon_*.png
+qr_glare_mask.png
+qr_clean.png
+ocr_probe.png
+qr_channels.py
+qr_chase.py
+qr_linear.py
+qr_rs.py
+qr_solve.py
+qr_solve2.py
+qr_verify.py
+qr_decode.py
+*.npy
+*.tmp
+*.bak
+
+# Local-only test fixtures & scratch outputs
+tests/__pycache__/
+tests/fixtures/local/
+tests/output/
+tests/*_local.py
+*_scratch.*
