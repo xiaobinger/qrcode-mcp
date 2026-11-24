@@ -48,6 +48,7 @@ mcp-name: io.github.xiaobinger/qrcode-mcp
   <img alt="WinRT OCR" src="https://img.shields.io/badge/-WinRT%20OCR-0078D4?style=flat-square">
   <img alt="RapidOCR" src="https://img.shields.io/badge/-RapidOCR-BE123C?style=flat-square">
   <img alt="JSON-RPC 2.0" src="https://img.shields.io/badge/-JSON--RPC%202.0-475569?style=flat-square">
+  <a href="https://mcprush.com/to/qrcode-mcp?ref=badge"><img height="20" src="https://mcprush.com/badge/qrcode-mcp/score.svg" alt="Qrcode MCP on mcprush" /></a>
 </p>
 
 > [!NOTE]
